@@ -166,6 +166,7 @@
   height: 100%;
   z-index: -1;
   object-fit: cover;
+  object-position: center;
   border-radius: 0.5rem;
 }
 .home-text {
@@ -562,7 +563,8 @@ color: var(--main-color);
     padding: 2rem 0;
   }
   .home-img {
-    object-position: left;
+    object-position: center;
+    object-fit: cover;
   }
   .movie-type {
     font-size: 0.875rem;
@@ -649,8 +651,9 @@ color: var(--main-color);
     min-height: 300px;
   }
   .home-img{
-    width: 20px;
-    height: 20px;
+    object-position: center;
+    /* width: auto; */
+    /* height: 20px; */
   }
   .movie-box {
     height: 285px;
