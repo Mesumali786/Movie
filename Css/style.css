@@ -686,13 +686,22 @@ color: var(--main-color);
 .uc-cards {
   position: relative;
   width: 100%;
-  height: 380px;
+  height: 600px;
   overflow: hidden;
+  background-color: #ffb43a;
+  
 }
-.uc-cards img {
-  width: 150px;
-  height: 180px;
-  object-fit: cover;
+.uc-card{
+  background: url(../img/color.png) no-repeat;
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,.102);
+  object-fit: contain;
+
+}
+.uc-card-img {
+  width: 240px;
+  height: 150px;
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,.102) 10;
+  object-fit: contain;
   object-position: center;
 }
 .uc-card .uc-cards img {
