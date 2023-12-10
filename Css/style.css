@@ -677,3 +677,25 @@ color: var(--main-color);
     grid-template-columns: 1fr;
   }
 }
+/* Uc Centre Css  */
+.uc-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(247px,1fr));
+  gap: 1.5rem;
+}
+.uc-cards {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+}
+.uc-cards img {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+.uc-card .uc-cards img {
+  transform: scale(1.50);
+  transition: 0.5s;
+}
