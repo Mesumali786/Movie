@@ -42,7 +42,7 @@
   img{
     width: 100%;
   }
-  fa, .bx {
+  .fa-regular, .bx {
     cursor: pointer;
   }
   body {
