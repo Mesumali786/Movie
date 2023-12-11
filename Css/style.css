@@ -42,7 +42,7 @@
   img{
     width: 100%;
   }
-  .fa-regular, .bx {
+  .fa-regular .fa-gamepad-modern, .bx {
     cursor: pointer;
   }
   body {
@@ -94,7 +94,7 @@
     border-radius: 4rem;
     margin-right: 1rem;
 }
-.search-box .bx {
+.search-box .bx, i {
     font-size: 1.1rem;
 }
 .search-box .bx:hover {
